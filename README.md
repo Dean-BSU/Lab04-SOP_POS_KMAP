@@ -17,6 +17,12 @@ using an implemented design on your Basys3 boards.
 
 Summarize your learnings from the lab here.
 
+In this lab we learned how to implement k-map minimization for a 4-input boolean
+function/equation. We learned how to use the minterms and maxterms to create a 
+product of sums(POS) and sum of products(SOP) equation(s). We used these two 
+equations along with the k-map to create a schematic in vivado that shows our 
+minimization of the function was correct. 
+
 ## Lab Questions
 
 ### Why are the groups of 1’s (or 0’s) that we select in the KMap able to go across edges?
