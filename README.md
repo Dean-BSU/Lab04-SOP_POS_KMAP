@@ -33,10 +33,13 @@ each row and column is looping infinitely, as one variable
 changes at a time in a repeating cycle, (ex 00->01->11->10->00).
 
 ### Why are the names Sum of Products and Products of Sums?
-Sum of Product is called so because each minterm is a product of AND gates, (ex (A & ~B)), and they are combined by summing
+Sum of Product is called so because each minterm is a product
+of AND gates, (ex (A & ~B)), and they are combined by summing
 each minterm with OR gates.
 
-Product of Sum is called so because each maxterm is a sum of OR gates (ex (~A | B)), and they are combined by taking the product of each maxterm with AND gates.
+Product of Sum is called so because each maxterm is a sum of 
+OR gates (ex (~A | B)), and they are combined by taking the 
+product of each maxterm with AND gates.
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
 
