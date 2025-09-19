@@ -45,5 +45,5 @@ product of each maxterm with AND gates.
 
 XOR can be used for testing because it can check if both values
 are true or both values are false. If the expected output (X)
-and actual output (Y) differ, then X ^ Y == 0. Then, you can
-easily check if each gate returns 0 (FAIL) or 1 (PASS).
+and actual output (Y) differ, then X ^ Y != 0. This statement
+is then used to determine if the test passes or fails.
